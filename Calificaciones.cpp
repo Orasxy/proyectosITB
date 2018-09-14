@@ -21,10 +21,10 @@ int main() {
         cin >> noteA[i];
     }
 
-    cout << endl << "Primeras Notas:" << endl ;
+    cout << endl << "Notas:" << endl ;
     for (int i = 0; i < dimension; i++){
         noteB[i] = noteA[dimension-i-1];
-        std::cout << "nota " << i+1 << ": "<< noteA[i] << endl;
+        cout << "nota " << i+1 << ": "<< noteA[i] << endl;
     }
 
     cout << endl << "Notas Invertidas:" << endl ;
