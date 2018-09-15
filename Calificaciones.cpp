@@ -21,15 +21,15 @@ int main() {
         cin >> noteA[i];
     }
 
-    cout << endl << "Notas:" << endl ;
+    cout << endl << "Primeras Notas:" << endl ;
     for (int i = 0; i < dimension; i++){
         noteB[i] = noteA[dimension-i-1];
-        cout << "nota " << i+1 << ": "<< noteA[i] << endl;
+        std::cout << "nota " << i+1 << " : "<< noteA[i] << endl;
     }
 
     cout << endl << "Notas Invertidas:" << endl ;
     for (int i = 0; i < dimension; i++){
-        cout << "nota " << i+1 << ": "<< noteB[i] << endl;
+        cout << "nota " << i+1 << " : "<< noteB[i] << endl;
         result += noteA[i];
     }
 
