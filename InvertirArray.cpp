@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
 
-   unsigned int d = 20;
+   int d = 20;
    typedef int aArray[d];
    aArray array;
 
-   cout << "Ingrese 20 numeros:" << endl;
+   cout << "Ingrese " << d << " numeros:" << endl;
 
    for (int i = 0; i < d; i++){
        cout << "numero " << i+1 << " de " << d << ": ";
@@ -18,7 +18,7 @@ int main() {
    }
 
    cout << endl << "numeros invertidos:" << endl ;
-   
+
    for (int i = 0; i < d; i++){
        cout << "numero " << i+1 << ": "<< array[d-i-1] << endl;
    }

@@ -18,10 +18,10 @@ int main() {
 
     for (int i = 0; i < d; i++){
         if (array[i] % 2 == 0){
-            std::cout << "el numero "<< array[i] << " es par."<< '\n';
+            cout << "el numero "<< array[i] << " es par."<< '\n';
         }
         else{
-            std::cout << "el numero "<< array[i] << " es impar."<< '\n';
+            cout << "el numero "<< array[i] << " es impar."<< '\n';
         }
     }
 

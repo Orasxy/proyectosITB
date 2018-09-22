@@ -1,3 +1,6 @@
+//Gabriel Cardenas
+//DSN01
+
 #include <iostream >
 using namespace std;
 
@@ -16,6 +19,8 @@ int main() {
     array[7] = 1;
 
     cin >> number;
+
+    cout << "se encuentra en los siguientes indices:" << '\n';
     for (int i = 0; i < d; i++) {
         if (number == array[i]) {
             cout << i << '\n';
